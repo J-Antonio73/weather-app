@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getWeatherData } from "../../../services/WeatherData";
 import { getCurrentLocation } from "../../../lib/getCurrentLocation";
-import "./primaryCard.css";
+import "./PrimaryCard.css";
 export default function PrimaryCard({ setData, setDataError }) {
 	const [city, setCity] = useState("");
 
