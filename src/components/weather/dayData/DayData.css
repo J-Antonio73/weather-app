@@ -1,0 +1,21 @@
+.weather-day-header {
+	width: 100%;
+}
+
+.weather-day-title p {
+	font-weight: bold;
+}
+
+.weather-slider {
+	width: 100%;
+}
+
+.weather-day-card {
+	display: flex;
+	justify-content: center;
+	background-color: #272727;
+	border-radius: 10px;
+	padding: 10px;
+	height: 164px !important;
+	align-items: center;
+}

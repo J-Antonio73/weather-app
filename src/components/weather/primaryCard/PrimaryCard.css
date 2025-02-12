@@ -1,0 +1,31 @@
+.weather-primary-header {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.weather-primary-header-icon {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.location-input-container input {
+	width: 100%;
+}
+
+.location-btn-container button {
+	width: 100%;
+}
+.form-control::placeholder {
+	color: rgba(255, 255, 255, 0.7); /* Blanco con opacidad */
+}
+.form-control:focus {
+	border-color: transparent !important;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.2) !important; /* Efecto oscuro en lugar de azul */
+	background-color: #212529; /* Mantener fondo oscuro */
+	color: white;
+}
+.search-pointer {
+	cursor: pointer;
+}
