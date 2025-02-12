@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import PrimaryCard from "./primaryCard/primaryCard";
+import PrimaryCard from "./primaryCard/PrimaryCard";
 import WeatherData from "./weatherData/WeatherData";
 import ErrorData from "./errorData/ErrorData";
 import LoadingCard from "./loading/LoadingCard";
